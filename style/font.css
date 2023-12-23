@@ -1,0 +1,28 @@
+@font-face {
+	font-family: Recolate;
+	src: url(../fonts/Recoleta-Black.ttf);
+}
+@font-face {
+	font-family: Rec-bold;
+	src: url(../fonts/Recoleta-Bold.ttf);
+}
+@font-face {
+	font-family: Rec-light;
+	src: url(../fonts/Recoleta-Light.ttf);
+}
+@font-face {
+	font-family: Rec-Medium;
+	src: url(../fonts/Recoleta-Medium.ttf);
+}
+@font-face {
+	font-family: Rec-regular;
+	src: url(../fonts/Recoleta-Regular.ttf);
+}
+@font-face {
+	font-family: Rec-semibold;
+	src: url(../fonts/Recoleta-SemiBold.ttf);
+}
+@font-face {
+	font-family: Rec-thin;
+	src: url(../fonts/Recoleta-Thin.ttf);
+}
