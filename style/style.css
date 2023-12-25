@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 }
-/*header-box-start*/
+/*header-start*/
 .header {
 	background-color: #163A24;
 	width: 100%px;
@@ -69,7 +69,7 @@ a {
 	height: 444px;
 	background: url(../images/mans.png);
 }
-/*header-box-end*/
+/*header-end*/
 
 
 
@@ -279,12 +279,15 @@ a {
 	margin-left: 80px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 15px;
 }
+.box--1 a {
+	font-family: Rec-Light;
+	color:  #163A24;
+}
 .box-list {
 	opacity: 0.8;
 	list-style: none;
 }
-.box--1:hover {
-	text-align: left;
+.box--1:active {
 	width: 353px;
 	height: 430px;
 	border: 2px solid red;
@@ -299,7 +302,11 @@ a {
 	margin-left: 30px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 15px;
 }
-.box--2:hover {
+.box--2 a {
+	font-family: Rec-Light;
+	color:  #163A24;
+}
+.box--2:active{
 	width: 353px;
 	height: 405px;
 	border: 2px solid red;
@@ -314,7 +321,11 @@ a {
 	margin-right: 80px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 15px;
 }
-.box--3:hover {
+.box--3 a {
+	font-family: Rec-Light;
+	color:  #163A24;
+}
+.box--3:active {
 	width: 353px;
 	height: 430px;
 	border: 2px solid red;
