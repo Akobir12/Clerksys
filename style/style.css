@@ -3,7 +3,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	/*d*/
 }
 /*header-box-start*/
 .header {
@@ -34,11 +33,11 @@ a {
 	border: 0;
 	border-radius: 45px;
 	color: white;
-	background-color: green;
+	background-color: #198C36;
 }
 .box-button button:focus {
 	background-color: white;
-	color: green;
+	color: #198C36;
 }
 .box-section {
 	background-color: #163A24;
@@ -81,6 +80,7 @@ a {
 	height: 550px;
 }
 .box-left-bg {
+	margin-left: 67px;
 	text-align: right;
 	background: url(../images/bg-img-men.png) no-repeat ;
 	float: left;
@@ -125,8 +125,11 @@ a {
 .box-left-bg-2 ,h1,p {
 	margin-left: 80px;
 }
+.box-left-bg-2 h1 {
+	padding-top: 90px;
+}
 .box-right-text-2 {
-	margin-top: 20px;
+	margin-top: 51px;
 	font-weight: 600;
 	color:  #163A24;
 	font-family:  Rec-light;
@@ -214,6 +217,7 @@ a {
 /* section-2-end*/
 
 
+
 /* section-3-start*/
 .box-1 {
 	font-family: Rec-Light;
@@ -281,8 +285,8 @@ a {
 }
 .box--1:hover {
 	text-align: left;
-	width: 360px;
-	height: 405px;
+	width: 353px;
+	height: 430px;
 	border: 2px solid red;
 }
 .box--2 {
@@ -290,13 +294,13 @@ a {
 	text-align: left;
 	float: left;
 	width: 353px;
-	height: 450px;
+	height: 430px;
 	border-radius: 15px;
 	margin-left: 30px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 15px;
 }
 .box--2:hover {
-	width: 360px;
+	width: 353px;
 	height: 405px;
 	border: 2px solid red;
 }
@@ -311,8 +315,8 @@ a {
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 15px;
 }
 .box--3:hover {
-	width: 360px;
-	height: 405px;
+	width: 353px;
+	height: 430px;
 	border: 2px solid red;
 }
 /* section-4-end*/
@@ -517,11 +521,10 @@ a {
 	width: 45%;
 }
 .box-right-barg {
-	background-repeat-y: 500px 200px;
-	background: url(../images/barg-righ.png) no-repeat;
+	background: url(../images/d.png) no-repeat;
 	float: right;
-	height: 390px;
-	width: 25%;
+	height: 355px;
+	width: 18%;
 }
 .button-3 {
 	text-align: center;
@@ -580,7 +583,7 @@ a {
 	margin-top: 31px;
 	margin-left: -100px;
 	border: 0;
-	background-color: green;
+	background-color: #198C36;
 	color: #fff;
 	width: 111px;
 	height: 54px;
@@ -660,5 +663,8 @@ a {
 	text-align: right;
 	text-decoration: none;
 }
-
+a:hover {
+	border-bottom: 3px solid #FBC8B8;
+	transition: 0.1s;
+}
 /*footer-end*/
