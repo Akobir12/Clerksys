@@ -16,7 +16,7 @@ a {
 	text-decoration: none;
 }
 .box-title {
-	margin-left: 110px;
+	margin-left: 32px;
 	padding: 15px;
 	float: left;
 }
@@ -36,6 +36,7 @@ a {
 	background-color: #198C36;
 }
 .box-button button:focus {
+	transition: 1s;
 	background-color: white;
 	color: #198C36;
 }
@@ -74,125 +75,198 @@ a {
 
 
 /*section-box-start*/
-.boxes {
-	margin-top: 50px;
-	width: 80%;
-	height: 550px;
+.carl {
+	color: 	#163A24;
+	width: 100%;
+	height: 600px;
 }
-.box-left-bg {
-	margin-left: 67px;
-	text-align: right;
-	background: url(../images/bg-img-men.png) no-repeat ;
-	float: left;
-	width: 39%;
-	height: 550px;
-}
-.box-right-text {
-	margin-right: 100px;
-	float: right;
-	margin-top: 150px;
-	font-weight: 600;
-	color:  #163A24;
-	font-family:  Rec-light;
-	font-size: 35px;
-}
-
-.box-left-bg img {
-	margin-top: 96px;
-	margin-right: 405px;
-}
-.box-right-text {
-	float: right;
-	width: 39	%;
-	height: 369px;
-}
-.paragraphs {
-	color: #163A24;
-}
-
-.boxes {
-	margin-top: 50px;
+.box {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 70%;
-	height: 550px;
+	height: 510px;
 }
-.box-left-bg-2 {
-	float: right;
-	text-align: right;
-	background: url(../images/bg-man-2.png) no-repeat ;
-	width: 49%;
-	height: 550px;
+.box-box-1 {
+	background: url(../images/bg-img-men.png) no-repeat;
+	margin-top: 50px;
+	width: 50%;
+	height: 510px;
+	float: left;
 }
-.box-left-bg-2 ,h1,p {
+.box-box-1 img {
+	margin-top: 100px;
 	margin-left: 80px;
 }
-.box-left-bg-2 h1 {
-	padding-top: 90px;
+.box-box-2 {
+	margin-left: 30px;
+	margin-top: 162px;
+	width: 33%;
+	height: 300px;
+	float: left	;
 }
-.box-right-text-2 {
-	margin-top: 51px;
-	font-weight: 600;
-	color:  #163A24;
-	font-family:  Rec-light;
-	font-size: 35px;
+.box-box-2 h1 {
+	font-family:  Rec-Medium;
+	padding-top: 40px;
 }
 
-.box-left-bg-2 img {
-	margin-right: 330px;
-	margin-top: 30px;
-}
-.box-right-text-2 {
-	float: left;
-	width: 40%;
-	height: 369px;
-}
-.paragraphs-2 {
-	color: #163A24;
-}
-.tex-brend {
-	font-family: Rec-Light;
-	margin-top: 600px;
-	text-align: center;
+.carl1 {
+	color: 	#163A24;
 	width: 100%;
-	height: 300px;
+	height: 600px;
 }
-.tex-brend h1 {
-	margin-bottom: 50px;
-	color: #163A24;
-	margin-top: 50px;
-	font-size: 48px;
-	font-weight: 600;
-	font: Rec-Light;
-}
-.tex-brend img {
-	width: 80%;
-	margin-right: auto;
+.box12 {
 	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 510px;
 }
+.box-box-10 {
+	width: 37%;
+	margin-left: 95px;
+	height: 300px;
+	float: left;
+}
+.box-box-10 img {
+	margin-top: 100px;
+	margin-left: 80px;
+}
+.box-box-20 {
+	background: url(../images/bg-man-2.png) no-repeat;
+	width: 47%;
+	height: 510px;
+	float: right;
+}
+.box-box-10 h1 {
+	margin-bottom: 	10px;
+	margin-left: 20px;
+	font-family:  Rec-Medium;
+	padding-top: 66px;
+}
+.box-box-10 p {
+	margin-left: 20px;
+}
+.boxes-img h1{
+	color: 	#163A24;
+	margin-bottom: 	50px;
+	font-family:  Rec-Medium;
+	text-align: center	;
+}
+.boxes-img img {
+	margin-left: 243px;
+	padding: 30px;
+}
+
+
+
+.hero-logo {
+	width: 155px;
+	height: 58px;
+	float: left;
+}
+
+.hero-links {
+	width: 447px;
+	height: 27px;
+	float: right;
+	padding: 10px;
+}
+
+.hero-links a {
+	margin: 24px;
+	font-family: Noto Sans;
+	color: #FBFAF7;
+}
+
+.header-btn {
+	width: 141px;
+	height: 52px;
+	border-radius: 160px;
+	border: none;
+	background-color: #198C36;
+	color: #FBFAF7;
+	font-family: Nato Sans;
+	font-size: 16px;
+}
+
+.header-btn:hover {
+	background-color: #FBFAF7;
+	color: #198C36;
+	transition: 1s;
+}
+
+.hero-section-left {
+	width: 492px;
+	height: 294px;
+	margin: 120px 130px;
+}
+
+.hero-section-title {
+	width: 400px;
+	height: 196px;
+	font-family: Rec-Bold;
+	font-size: 48px;
+	color: #FBFAF7;
+}
+
+.hero-section-text {
+	width: 475px;
+	font-family: Noto Sans;
+	font-size: 18px;
+	color: #FBFAF7;
+	margin-top: 18px;
+}
+
+/* Header and Hero End */
+
+/* Section 1 Style Start */
+
+.section-1 {
+	width: 100%;
+	height: 1225px;
+	margin-top: 120px;
+}
+
+.bubble-1-position {
+	width: 1180px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 510px;
+/*	margin: 0px 130px;*/
+}
+
 /*section-box-end*/
 
 
 
 /*section-start */
-.boxs {
+.boxs {	
+	text-align: center;
 	color: white;
 	background-color: #163A24;
 	width: 100%;
 	height: 568px;
 }	
+.list {
+	list-style: none;
+	width: 18%;
+	padding:10px;
+	float: left;
+}
+.list:nth-child(1) {
+	margin-left: 156px;
+}
+.list h1, {
+	font-weight: 600;
+	font-family:  Rec-Medium;
+}
 .boxs-title {
-	padding: 30px 30px;
+	padding: 30px;
 	text-align: center;
 	color: #fff;
 	font-size: 48px;
-	font-family: Rec-Light;
+	font-family:  Rec-Medium;
 	font-weight: 600;
-}
-.items ,.items-2 ,.items-3 ,.items-4 {
-	list-style: none;
-	margin-top: 60px;
-	width: 23%;
-	display: inline-block;
-	text-align: center;
 }
 /*section-end*/
 
@@ -288,6 +362,7 @@ a {
 	list-style: none;
 }
 .box--1:active {
+	transition: 1s;
 	width: 353px;
 	height: 430px;
 	border: 2px solid red;
@@ -307,6 +382,7 @@ a {
 	color:  #163A24;
 }
 .box--2:active{
+	transition: 1s;
 	width: 353px;
 	height: 405px;
 	border: 2px solid red;
@@ -326,6 +402,7 @@ a {
 	color:  #163A24;
 }
 .box--3:active {
+	transition: 1s;
 	width: 353px;
 	height: 430px;
 	border: 2px solid red;
@@ -410,6 +487,7 @@ a {
 	border: 0;
 }
 .button-1:hover {
+	transition: 1s;
 	border: 2px solid #198C36;
 	color:  #198C36;
 	background-color: #F2EFE6;
@@ -427,7 +505,6 @@ a {
 	height: 514px;
 }
 .button-2 {
-	margin-left: 75px;
 	margin-top: 30px;
 	background-color: #198C36;
 	color: #fff;
@@ -486,9 +563,6 @@ a {
 	width: 49%;
 	height: 550px;
 }
-.box-left-bg-2 ,h1,p {
-	margin-left: 80px;
-}
 .paragraph-2 {
 	font: Noto Sans;
 }
@@ -500,6 +574,7 @@ a {
 	font-size: 35px;
 }
 .box-left-bg-2 img {
+	margin-top: 	28px;
 	margin-right: 200px;
 }
 .box-right-text-2 {
@@ -563,14 +638,14 @@ a {
 	background-color: #F2EFE6;
 }
 .content-1 {
-	width: 49%;
+	margin-left: 50px;
+	width: 40%;
 	height: 260px;
 	float: left;
 }
 .content-1 p {
 	color:  #163A24;
 	margin-top: 20px;
-	font: Noto Sans;
 }
 .content-1 h1 {
 	color:  #163A24;
@@ -602,7 +677,6 @@ a {
 }
 .content-2 p{
 	margin-left: 0;
-	font: Noto Sans;
 	color:  #163A24;
 }
 .content-2 a {
@@ -677,5 +751,16 @@ a {
 a:hover {
 	border-bottom: 3px solid #FBC8B8;
 	transition: 0.1s;
+}
+h1 {
+	font-family:  Rec-Medium;
+	font-size: 48px;
+}
+p {
+	font-family:  Noto Sans;
+	font-size: 18px;
+}
+hr {
+	opacity: 0.2;
 }
 /*footer-end*/
